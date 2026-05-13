@@ -11,10 +11,10 @@ import { ContactView } from './pages/Contact.js';
 import { UsersView } from './pages/Users.js';
 
 const routes = {
-    '/pract-7/': HomeView,
-    '/pract-7/about': AboutView,
-    '/pract-7/contact': ContactView,
-    '/pract-7/users': UsersView
+    '/pract-7-structured/': HomeView,
+    '/pract-7-structured/about': AboutView,
+    '/pract-7-structured/contact': ContactView,
+    '/pract-7-structured/users': UsersView
 };
 
 const render = () => {
@@ -30,8 +30,8 @@ const render = () => {
         ${Footer()}
     `;
 
-    if (path === '/pract-7/users') loadUsersData();
-    if (path === '/pract-7/contact') initContactForm();
+    if (path === '/pract-7-structured/users') loadUsersData();
+    if (path === '/pract-7-structured/contact') initContactForm();
 };
 
 // --- Логіка форми ---

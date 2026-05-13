@@ -14,7 +14,7 @@ export const HomeView = () => {
             <div class="container">
                 <h1>Boost Your Productivity</h1>
                 <p>Manage your tasks effortlessly...</p>
-                <a href="/pract-7/contact" class="btn-primary" data-link>Try for Free</a>
+                <a href="/pract-7-structured/contact" class="btn-primary" data-link>Try for Free</a>
             </div>
         </section>
         <section id="features" class="features-section bg-light">
